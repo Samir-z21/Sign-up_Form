@@ -3,6 +3,7 @@ body {
     max-height: 100vh;
     margin: 0px;
     padding: 0px;
+  
 }
 
 .desert {
@@ -23,15 +24,19 @@ body {
     width: 40vw;
 }
 
-.guarded-Oasis {   
-    width: 4vw;    
-    font-size: 4vh;
-}
-
 .lantern {
     width: 6vw;
     height: 22vh;
 }
+.guarded-Oasis {  
+    position: relative;
+    top: 3vh;
+    font-family:'Brush Script MT', cursive, sans-serif;
+    width: 4vw;    
+    font-size: 4vh;
+}
+
+
 
 .pic-reference {
     position: absolute;
