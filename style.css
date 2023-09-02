@@ -78,13 +78,43 @@ html {
 }
 
 /*form*/
+button,
+input {
+    font-family: inherit;
+}
 .form-container {
-    height: 30vh;
+    min-height: 30vh;
     border: 1px solid #ccc;
     box-shadow: 1px 5px 10px rgb(190, 190, 190);
     background-color: white;
 }
+.cheer {
+    padding-left: 3vw;
+    font-size: 2.4vh;
+}
 
 form {
+    display: flex;
+    flex-wrap: wrap;
     
+    gap: 4px;
+    height: 30vh;
+    width: 40vw;
+    padding-left: 3vw;
+    
+}
+
+button {
+    margin-left: 3vw;
+    border-radius: 5%;
+    font-size: 2.4vh;
+    color: white;
+    background-color: rgb(180, 79, 39);
+    width: 12vw;
+    height: 6vh;
+}
+
+input {
+    width: 12vw;
+    height: 3vh;
 }

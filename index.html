@@ -21,38 +21,47 @@
     <div class="right">
         <div class="intro-text">
             <p class="long-text">Let's go where we can bring serenity to the soul and tranquility to the heart. You can book you're trip <em>now</em> with us in just a few simple steps. </p>
-            <p class="short-text">Don't let hesitation be a means to regret.</p>
+            <p class="short-text">Don't let hesitation be a means for regret.</p>
         </div>
 
         <div class="form-container">
-            <p>Let's do this!<p>
+            <p class="cheer">Let's do this!<p>
             <form action="example.com/path" method="post">
-                
-                <p>
-                    <label for="first_name"> First Name:</label>
-                    <input type="text" id="first_name" placeholder="Abdullah...">
+                    <span>
+                        <label for="first_name"> <span aria-label="required">*</span> First Name </label>
+                        <input type="text" id="first_name" placeholder="Abdullah..." required>
+                    </span>
+                    
+                    <span>
+                        <label for="last_name"> Last Name</label>
+                        <input type="text" id="last_name" placeholder="ibn Umar..." required>
+                    </span>
 
-                    <label for="last_name"> Last Name:</label>
-                    <input type="text" id="last_name" placeholder="ibn Umar...">
+                    <span>
+                        <label for="user_email"> Email</label>
+                        <input type="email" id="user_email" placeholder="you@example.com" required>
+                    </span>
+
+                    <span>
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" placeholder="(514)-000-0000" required >
+                    </span>
+
+                    <span>
+                        <label for="user_password">Password</label>
+                        <input type="password" id="user_password" required>
+                    </span>
+
+                    <span>
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" required>
+                    </span>    
+         </div>
+                <p>
+                    <button type="button">Create Account</button>
                 </p>
-
-                <p>
-                    <label for="user_email"> Email Address:</label>
-                    <input type="email" id="user_email" placeholder="abdullah@gmail.com">
-
-                    <label for="number">Phone Number</label>
-                    <input type="tel" id="number" >
-                </p>
-
-                <p>
-                    <label for="user_password">Password:</label>
-                    <input type="password" id="user_password">
-
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" id="user_password">
-                </p> 
             </form>
-        </div>
+       
 
         <div class="finalize">
 
