@@ -125,10 +125,10 @@ input {
     height: 3vh;
 }
 input:focus {
-    border: 0.3vh solid blue ;
+    outline: 0.3vh solid blue ;
 }
 input:valid {
-    border: 0.3vh solid green ;
+    outline: 0.3vh solid green ;
 }
 
 button {
