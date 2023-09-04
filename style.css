@@ -35,6 +35,8 @@ body {
     height: 20vh;
 }
 .guarded-Oasis { 
+    display: flex;
+    text-align: center;
     position: relative;
     top: -2vh; 
     font-family: 'Castellar','Bauhaus 93','Brush Script MT', cursive, sans-serif;
