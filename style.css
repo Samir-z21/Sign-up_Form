@@ -115,21 +115,25 @@ span {
     height: 3vh;
 }
 input {
-    padding: 0px 0px;
+    padding: 0.2vh 0.4vh;
     font-size: 2vh;
+    border-radius: 0.5vh;
     border: 0.2vh solid;
     width: 12vw;
     height: 3vh;
 }
-
 input:focus {
     outline: 0.3vh solid blue ;
 }
+input:valid {
+    border-color: green;
+}
+
 button {
     margin-top: 3vh;
     cursor: pointer;
     margin-left: 3vw;
-    border-radius: 7%;
+    border-radius: 0.7vh;
     font-size: 2.4vh;
     font-weight: 600;
     color: white;
@@ -140,3 +144,14 @@ button {
     height: 6vh;
 }
 
+.finalize {
+    padding-left: 3vw ;
+    padding-top: 3vh;
+    font-size: 2.2vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(180, 79, 39);
+    font-weight:800;
+    
+}
