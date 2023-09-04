@@ -34,7 +34,9 @@ body {
     width: 5vw;
     height: 20vh;
 }
-.guarded-Oasis {  
+.guarded-Oasis { 
+    position: relative;
+    top: -2vh; 
     font-family:'Brush Script MT', cursive, sans-serif;
     width: 4vw;    
     font-size: 4vh;
