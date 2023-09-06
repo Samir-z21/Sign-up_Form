@@ -14,6 +14,10 @@ body {
 }
 
 /*design side*/
+.left {
+    display: flex;
+    justify-content: center;
+}
 .desert-pic {
     width: 38vw;
     height: 100vh;
@@ -23,30 +27,36 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    gap: 2vh;
     top: 14vh;
-    left: 0vh;
+    gap: 2vh;
     background-color: rgb(255, 255, 255, 0.15);
     height: 20vh;
     width: 38vw;
 }
+
 .lantern {
+    flex-shrink: 0;
     width: 5vw;
     height: 20vh;
 }
-.guarded-Oasis { 
-    display: flex;
+.guarded-Oasis {
+    font-family: 'Castellar','Bauhaus 93','Brush Script MT', cursive, sans-serif; 
     text-align: center;
     position: relative;
     top: -2vh; 
-    font-family: 'Castellar','Bauhaus 93','Brush Script MT', cursive, sans-serif;
     width: 8vw;    
     font-size: 4vh;
+    
 }
 .pic-reference {
+    width: 38vw;
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 1vh;
-    left: 11vw; 
+     
+}
+.pic-reference-text {
     text-decoration: none;
     color: white;
     font-size: 2.3vh;
